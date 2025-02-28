@@ -13,4 +13,8 @@ public class FirstController {
     public String goodbyePage() {
         return "first/goodbye";
     }
+    @GetMapping("/")
+    public String homePage() {
+        return "first/hello";
+    }
 }
